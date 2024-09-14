@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+python-multipart
+openai
+PyPDF2
+jinja2
+google-generativeai
+pdfminer.six
