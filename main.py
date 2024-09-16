@@ -11,7 +11,7 @@ app = FastAPI()
 
 templates = Jinja2Templates(directory="templates")
 
-os.environ['GOOGLE_API_KEY'] = "AIzaSyDuxIhriLzBt1ifMh9jl5Dh6yBt6wFZHWA"
+os.environ['GOOGLE_API_KEY'] = "__your_key__"
 genai.configure(api_key=os.environ['GOOGLE_API_KEY'])
 model = genai.GenerativeModel('gemini-pro')
 
